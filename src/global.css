@@ -1,0 +1,180 @@
+:root {
+  --logo: #ffffff;
+  --sage: #86907d;
+  --almost-black: #0f0f0f;
+  --grey-dark: #525252;
+  --grey-medium: #e0e0e0;
+  --Biscuit: #f0d989;
+}
+.logo {
+  background: rgba(134, 144, 125, 0.5);
+
+  height: 25px;
+}
+
+.header {
+  background-color: var(--sage);
+}
+
+.logo__image {
+  display: flex;
+  color: white;
+}
+
+.hero-section {
+  width: 100%;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.hero__content {
+    font-size: 50px;
+  font-weight: 500;
+  font-family: 'Cormorant';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero__image {
+  width: 100%;
+  height: auto;
+}
+.grass__image {
+  width: 100%;
+  height: auto;
+}
+.kettle__image {
+  width: 100%;
+  height: auto;
+}
+
+.blends__paragraph :first-child{
+    font-family: 'Cormorant';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+}
+.blends__paragraph{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 135%;
+
+
+
+
+}
+
+.cup__image {
+  width: 100%;
+  height: auto;
+}
+.reservation__section {
+  width: 100%;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.reservation__content {
+  font-weight: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.reservation__image {
+  height: 500px;
+  width: 200%;
+}
+.reservation__content h1 {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 65px;
+  text-align: center;
+}
+.reservation__content p {
+  font-family: "Roboto";
+
+  font-size: 19px;
+  line-height: 140%;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.reservation__content button {
+  font-family: "Cormorant";
+
+  padding: 16px 60px;
+
+  background: #ffffff;
+
+  border: 1px solid #86907d;
+}
+/* .gallery__images{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:minmax(200px, auto);
+    grid-template-areas: "tea tea tea tea cushion";
+} */
+.gallery__images{
+    display: flex;
+}
+.teaPeople__image {
+     width: 80%;
+  height: auto;
+  /* grid-area: tea; */
+ 
+}
+/* .cushion__image{
+    width: 100%; 
+   height: auto; 
+  grid-area: cushion;
+} */
+.lemon {
+  height: 400px;
+  width: 250px;
+}
+.menu__cup {
+  height: 250px;
+  width: 250px;
+}
+.spices__image {
+  height: auto;
+  width: 100%;
+}
+.bottles__image {
+  height: auto;
+  width: 100%;
+}
+.article__content {
+  display: flex;
+}
+.footer {
+  background: #86907d;
+  /* color: white; */
+  color: var(--logo);
+}
+
+@media (min-width: 480px) {
+  .header {
+    display: flex;
+  }
+  .nav__links {
+    display: flex;
+    list-style-type: none;
+  }
+  .nav__item a:link {
+    text-decoration: none;
+  }
+  .nav__item {
+    margin-left: 150px;
+    margin-right: 20px;
+  }
+}
