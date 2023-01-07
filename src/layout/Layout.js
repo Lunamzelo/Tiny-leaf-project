@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
           <img
           className="hero__image"
           src="./Images/image1.png"
-          alt="image 1"
+          alt="hero"
          />
           <p className="hero__content">A flavour for all seasons</p>
         </div>
@@ -24,12 +24,12 @@ const Layout = ({ children }) => {
             flavour some cups were rewarded fairly.
           </p>
         </div>
-        <img className="grass__image" src="./Images/image2.svg" alt="image 2" />
+        <img className="grass__image" src="./Images/image2.svg" alt="" />
         <h1>Hand-picked and sustainable</h1>
         <img
           className="kettle__image"
           src="./Images/image3.svg"
-          alt="image 3"
+          alt=""
          />
         <h3>Wise Leaf evenings </h3>
         <p>
@@ -37,12 +37,12 @@ const Layout = ({ children }) => {
           alike, our Wise Leaf events are a melting pot to share, reflect and
           contemplate.
         </p>
-        <img className="cup__image" src="./Images/image4.svg" alt="image 4" />
+        <img className="cup__image" src="./Images/image4.svg" alt="" />
         <div className="reservation__section">
           <img
             className="reservation__image"
             src="./Images/image5.png"
-            alt="image 5"
+            alt=""
           />
           <div className="reservation__content">
             <h1>Make a reservation</h1>
@@ -58,7 +58,7 @@ const Layout = ({ children }) => {
           <img
             className="teaPeople__image"
             src="./Images/image6.svg"
-            alt="image 6"
+            alt=""
            />
           <img
             className="cushion__image"
