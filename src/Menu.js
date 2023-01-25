@@ -3,25 +3,25 @@ import React from "react";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
 //import Fieldset from "./Fieldset";
+import Image9 from "./Images/image9.svg"
+
+import "./menu.css";
+
 
 function Menu() {
   return (
     <div>
-      {/* <Layout> 
-        <h1>Title</h1>
-        <p>the best layout</p>
-        
-    </Layout> */}
+     
 
       <Header />
       <div className="image__container">
-        <img className="menu__cup" src="./Images/image9.svg" alt="filled cup" />
+        {/* <img className="image-9" src={Image9} alt="" /> */}
         <h1>Menu</h1>
       </div>
       <h3>Loose leaf teas</h3>
-      <article>
+      <div>
         <h4>Darjeeling</h4>
-        <div className="article__content">
+        <div className="menu_item">
 
         <p>
           A refined and ligh Black tea
@@ -32,10 +32,10 @@ function Menu() {
         </p>
         <p>£4.50</p>
         </div>
-      </article>
-      <article>
+      </div>
+      <div>
         <h4>Blue Earl Grey</h4>
-        <div className="article__content">
+        <div className="menu_item">
         <p>
           A delicate blend of blueberry
           flower and sunflower petals 
@@ -43,10 +43,10 @@ function Menu() {
         </p>
         <p>£4.50</p>
         </div>
-      </article>
-      <article>
+      </div>
+      <div>
         <h4>Organic Mango and Papaya</h4>
-        <div className="article__content">
+        <div className="menu_item">
         <p>
           A mix of Indian Black tea,
            Ceylan, Assam and Chinese
@@ -57,10 +57,10 @@ function Menu() {
         </p>
         <p>£5</p>
         </div>
-      </article>
-      <article>
+      </div>
+      <div>
         <h4>White Magic</h4>
-        <div className="article__content">
+        <div className="menu_item">
         <p>
           White tea sprinkled with rose
           buttons and marigold, with 
@@ -69,10 +69,10 @@ function Menu() {
         </p>
         <p>£5</p>
         </div>
-      </article>
-      <article>
+      </div>
+      <div>
         <h4>Wise Flower</h4>
-        <div className="article__content">
+        <div className="menu_item">
         <p>
           An unusual blend of rose,
            Sencha Green tea, dates and 
@@ -81,10 +81,10 @@ function Menu() {
         </p>
         <p>£5</p>
         </div>
-      </article>
-      <article>
+      </div>
+      <div>
         <h4>Night at the palace</h4>
-        <div className="article__content">
+        <div className="menu_item">
         <p>
           Earl Grey aromas, kiwi,
            yellow peach, orange
@@ -94,12 +94,12 @@ function Menu() {
         </p>
         <p>£5.50</p>
         </div>
-      </article>
-      <fieldset>
+      </div>
+      <fieldset className="my__fieldset">
         <legend>Special This Week ...</legend>
-        <article>
+        <div>
           <h4>Sticky Almond</h4>
-          <div className="article__content">
+          <div className="menu_item">
           <p>
             Organic Sencha Green tea 
             from China, mixed with 
@@ -108,10 +108,10 @@ function Menu() {
           </p>
           <p>£5.50</p>
           </div>
-        </article>
-        <article>
+        </div>
+        <div>
           <h4>Green Sun</h4>
-          <div className="article__content">
+          <div className="menu_item">
             <p>
               Blood orange and orange
                bark make this a fruity and
@@ -119,10 +119,10 @@ function Menu() {
             </p>
             <p>£5.50</p>
           </div>
-        </article>
-        <article>
+        </div>
+        <div>
           <h4>Christmas Special</h4>
-          <div className="article__content">
+          <div className="menu_item">
           <p>
             Organic Assam Black tea
             
@@ -131,14 +131,14 @@ function Menu() {
           </p>
           <p>£6</p>
           </div>
-        </article>
+        </div>
       </fieldset>
-      <div className="lemon-honey__container">
-        <img className="lemon" src="./Images/image10.svg" alt="lemon pieces" />
+      <div className="reserve__box">
+        {/* <img className="lemon" src="./Images/image10.svg" alt="lemon pieces" /> */}
         <h1>
-          Shall we put <br />
+          Shall we put 
           your name in
-          <br /> the tea pot?
+           the tea pot?
         </h1>
         <p>
           For anything from a catchup with a long 

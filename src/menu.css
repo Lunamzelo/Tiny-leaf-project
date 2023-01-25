@@ -1,0 +1,96 @@
+/* MOBILE VIEW */
+
+
+.my__fieldset{
+    border: 1px solid yellow;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+legend{
+  font-size: 1rem;
+  margin-top: -30px;
+  margin-left: 20%;
+  background-color: white;
+  width: 60%;
+  padding-left: 4%;
+  font-family: cormonat;
+
+}
+
+
+@media (min-width: 1200px){
+.image__container{
+  /* display: grid;
+  grid-template-areas: picture;
+  align-items: center; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../src/Images/image9.svg");
+  /* background-repeat: repeat; */
+  background-size: cover;
+}
+/* .image-9{
+ grid-area: picture;
+} */
+.image__container h1{
+
+  padding: 40%;
+  color: white;
+  font-family: 
+Cormorant;
+}
+.menu_item{
+  display: flex;
+  justify-content: space-between;
+}
+h4{
+  font-family: Cormorant;
+}
+h3{
+  font-family: Cormorant;
+}
+.reserve__box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../src/Images/image10.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh ;
+  width: 100%;
+}
+h1{
+  color: white;
+  font-family: cormorant;
+  font-size: 44px;
+}
+.reserve__box p{
+  color: white;
+  font-family: cormorant;
+}
+input{
+  border:1px solid #86907d; 
+  width: 72%;
+  height: 6%;
+  padding: 2rem 2rem 2rem 2rem;
+  font-family: cormorant;
+}
+.my__fieldset{
+    border: 1px solid yellow;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+legend{
+  font-size: 1rem;
+  margin-top: -30px;
+  margin-left: 20%;
+  background-color: white;
+  width: 40%;
+  padding-left: 4%;
+  font-family: cormonat;
+
+}
+}
