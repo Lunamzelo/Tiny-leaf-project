@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Outlet, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import Logo from "../Images/logoImage.svg";
 import Menu from "../Images/menu.svg";
 import Close from "../Images/close.svg";

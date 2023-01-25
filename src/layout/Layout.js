@@ -1,17 +1,17 @@
 import Footer from "./Footer";
 import Header from "./Header";
 import { Carousel } from "react-responsive-carousel";
-import Image1 from "../Images/image1.png";
+// import Image1 from "../Images/image1.png";
 import Image2 from "../Images/image2.svg";
 import Image3 from "../Images/image3.svg";
 import Image4 from "../Images/image4.svg";
-import Image5 from "../Images/image5.png";
+// import Image5 from "../Images/image5.png";
 import First from "../Images/firstgallery.svg";
 import Second from "../Images/secondgallery.svg";
 import Third from "../Images/thirdgallery.svg";
 import Fourth from "../Images/fourthgallery.svg";
 
-import Background from "../Images/Background.svg";
+// import Background from "../Images/Background.svg";
 
 const Layout = ({ children }) => {
   return (

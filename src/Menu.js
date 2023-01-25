@@ -3,7 +3,7 @@ import React from "react";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
 //import Fieldset from "./Fieldset";
-import Image9 from "./Images/image9.svg"
+// import Image9 from "./Images/image9.svg"
 
 import "./menu.css";
 
