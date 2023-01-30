@@ -1,0 +1,54 @@
+.blends__paragraph :first-child {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+.blends__paragraph {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+
+}
+.grass__image {
+  width: 100%;
+  height: auto;
+}
+
+
+  .first__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr 1fr 1fr;
+    margin-bottom: 30px;
+    padding: 10px;
+    column-gap: 10px;
+  }
+  .first__grid h1 {
+    font-family: Cormorant;
+    color: var(--Biscuit);
+    font-size: 3rem;
+
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .blends__paragraph {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .grass__image {
+    grid-column: 2/3;
+    grid-row: 1/4;
+  }
+  .horizontal__line {
+    border-top: 3px solid;
+    color: rgb(221, 221, 22);
+
+    width: 25%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }

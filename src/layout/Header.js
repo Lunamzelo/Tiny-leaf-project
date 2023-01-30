@@ -4,6 +4,7 @@ import Logo from "../Images/logoImage.svg";
 import Menu from "../Images/menu.svg";
 import Close from "../Images/close.svg";
 import LogoText from "../Images/Tiny Leaf Tea House.svg"
+import "../layout/header.css"
 
 function Header() {
   const [Flag, setFlag] = useState(false);

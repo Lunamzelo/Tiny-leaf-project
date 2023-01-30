@@ -1,0 +1,29 @@
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  margin-left: 5rem;
+}
+.contact__details {
+  display: flex;
+
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.footer {
+  background: #86907d;
+
+  color: var(--logo);
+}
+
+@media (min-width: 460px) {
+  .contact__details{
+    display: flex;
+    flex-direction: row;
+  }
+  
+}

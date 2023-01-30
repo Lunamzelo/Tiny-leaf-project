@@ -1,0 +1,21 @@
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../Images/image1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 48vw;
+  width: 100vw;
+}
+.hero__content {
+  color: white;
+  font-size: 90px;
+  font-weight: 500;
+  font-family: "Cormorant";
+
+  width: 613px;
+  height: 150px;
+}

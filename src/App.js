@@ -3,9 +3,9 @@ import "./global.css";
 
 //import  ReactDOM  from 'react-dom/client';
 import { Routes, Route} from "react-router-dom";
-import Home from "./Home";
-import Menu from "./Menu";
-import Reservation from "./Reservation";
+import Home from "./Home/Home";
+import Menu from "./Menu/Menu";
+import Reservation from "./Reservation/Reservation";
 //import Layout from "./layout/Layout";
 function App() {
   return (

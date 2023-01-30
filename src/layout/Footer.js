@@ -5,7 +5,7 @@ import LogoText from "../Images/Tiny Leaf Tea House.svg";
 function Footer() {
   return (
     <div className="footer">
-      <div className="footer__flex">
+      <div className="footer__container">
         <div className="footer__logo">
           <img className="logo" src={Logo} alt="" />
 

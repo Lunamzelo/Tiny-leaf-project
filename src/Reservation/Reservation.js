@@ -1,6 +1,9 @@
 import React from 'react'
-import Header from './layout/Header'
-import Footer from './layout/Footer';
+import Header from '../layout/Header'
+import Footer from '../layout/Footer';
+import "./reservation.css";
+import Image11 from "../Images/image11.svg"
+import Image12 from  "../Images/image12.png"
 
 function Reservation() {
   return (
@@ -9,7 +12,7 @@ function Reservation() {
       <div>
         <img
           className="spices__image"
-          src="./Images/image11.svg"
+          src={Image11}
           alt="spices"
         />
         <h3>Reservation</h3>
@@ -51,7 +54,7 @@ function Reservation() {
       <div className="bottles-image__container">
         <img
           className="bottles__image"
-          src="./Images/image12.png"
+          src={Image12}
           alt="bottles"
         />
         <h2>
