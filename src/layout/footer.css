@@ -19,11 +19,22 @@
 
   color: var(--logo);
 }
-
-@media (min-width: 460px) {
+@media (min-width: 800px) {
   .contact__details{
     display: flex;
     flex-direction: row;
   }
   
+}
+@media (min-width: 1200px) {
+ .footer__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+   .contact__details{
+    display: flex;
+    flex-direction: row;
+  }
+
 }

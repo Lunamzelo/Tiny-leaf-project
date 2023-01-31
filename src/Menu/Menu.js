@@ -11,9 +11,9 @@ function Menu() {
       <Header />
       {/* <div className="banner"></div> */}
       <div className="image__container">
-        
         <h1>Menu</h1>
       </div>
+      <div className="menu__container">
       <h3>Loose leaf teas</h3>
       <div className="price__menu">
         <h4>Darjeeling</h4>
@@ -107,6 +107,7 @@ function Menu() {
             <p>£6</p>
           </div>
         </div>
+      </div>
       </div>
       <div className="reserve__box">
         {/* <img className="lemon" src="./Images/image10.svg" alt="lemon pieces" /> */}

@@ -1,0 +1,80 @@
+
+.reservationImage__container{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../Images/image11.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+height: 100vh;
+  color: white;
+  font-family: cormorant;
+  font-size: 54px;
+}
+
+.form__container{
+    width: 90%;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
+label{
+    
+  display: block;
+  /* margin-bottom: 10px;
+  font-weight: bold; */
+  font-family: cor;
+  color: #525252;
+}
+.input__boxes{
+   
+  display: grid;
+  grid-template-columns: 1fr 20px 1fr;
+  grid-template-rows: 80px  80px   80px   80px  170px;
+  row-gap: 50px;
+} 
+input{
+  /* width: 100%; */
+      width: 100%;
+  padding: 20px ;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: solid 2px #5A684C;
+
+
+
+}
+.date{
+   grid-column: 1/2; 
+grid-row: 1/2;
+}
+.time{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.group-size{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.name{
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+.contact-number{
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+.comments{
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+#comments{
+  height: 120px;
+}
+.ellipse__1{
+
+ margin:1em;
+}
+.form__container h3{
+  font-family: cor;
+  font-size: 30px;
+}

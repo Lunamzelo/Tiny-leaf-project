@@ -1,5 +1,31 @@
 /* MOBILE VIEW */
+.image__container{
+  /* display: grid;
+  grid-template-areas: picture;
+  align-items: center; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../Images/image9.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+   height:100vh ;
+  width: 100%;
+}
+.image__container h3{
+font-family:  Cormorant;
 
+
+}
+.menu__container{
+
+ width: 80%;
+ margin: 0 auto;
+ padding: 20px;
+
+}.menu__container h3{
+  font-family: cormorant;
+}
 
 .specials{
     border: 1px solid yellow;
@@ -7,7 +33,7 @@
   margin-bottom: 20px;
 }
 
-h3{
+.specials h3{
   font-size: 1rem;
   margin-top: -25px;
   margin-left: 20%;
@@ -17,16 +43,39 @@ h3{
   font-family: cormonat;
 
 }
-.image__container{
-  /* display: grid;
-  grid-template-areas: picture;
-  align-items: center; */
-    display: flex;
+.specials h3, h4{
+  font-family:cormonat ;
+  color: #5A684C;
+}
+.reserve__box{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../Images/image9.svg");
-  /* background-repeat: repeat; */
+  background-image: url("../Images/image10.svg");
+  background-repeat: no-repeat;
   background-size: cover;
+  height:100vh ;
+  width: 100%;
+}
+h1{
+  color: white;
+  font-family: cormorant;
+  font-size: 44px;
+}
+.reserve__box p{
+  color: white;
+  font-family: cormorant;
+}
+input{
+  border:1px solid #86907d; 
+  width: 72%;
+  height: 6%;
+  padding: 2rem 2rem 2rem 2rem;
+  font-family: cormorant;
+}
+@media (min-width: 720px00px){
+
 }
 
 
@@ -94,7 +143,7 @@ input{
   padding: 10px;
   margin-bottom: 20px;
 }
-h3{
+.specials h3{
   font-size: 1rem;
   margin-top: -30px;
   margin-left: 20%;
